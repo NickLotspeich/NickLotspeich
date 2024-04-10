@@ -1,4 +1,4 @@
-<html>
+<html lang=”en”>
 
 <head>
     <title>Nick Lotspeich's Portfolio</title>
@@ -19,10 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
     
     <!-- Scripts -->
-    <!-- <script src="assets/js/scroll.js"></script> -->
-    <!-- <script src="assets/js/starfield.js"></script>
-    <script src="assets/js/gallery.js"></script>
-    <script src="assets/js/send-email.js"></script> -->
+    <script src="assets/js/starfield.js"></script>
 </head>
 
 <body>
@@ -56,24 +53,24 @@
     <div id="home">
         <div id="video-container" class="position-relative">
             <video autoplay muted loop id="background-gameplay-video" class="w-100">
-                <source src="assets/vids/GreenThumbTrailer.mp4" type="video/mp4">
+                <source src="assets/vids/Gameplay.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
             <div id="home-content" class="position-absolute top-50 start-50 translate-middle text-center">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-lg-6 col-md-8 col-sm-10 position-relative" style="z-index: 1;">
+                        <div class="col-lg-4 col-md-6 col-sm-6 position-relative"">
                             <img id="home-image" src="assets/imgs/telescope.png" alt="Telescope Icon" class="img-fluid">
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-lg-6 col-md-8 col-sm-10 position-relative" style="z-index: 1;">
-                            <div id="home-title" class="font-weight-light display-4 mb-4">NICK LOTSPEICH</div>
+                        <div class="col-lg-4 col-md-8 col-sm-6 position-relative"">
+                            <h1 id="home-title">NICK LOTSPEICH</h1>
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-lg-6 col-md-8 col-sm-10 position-relative" style="z-index: 1;">
-                            <div id="home-subtitle" class="font-weight-normal lead mb-4">GAME DESIGNER & DEVELOPER</div>
+                        <div class="col-lg-4 col-md-8 col-sm-6 position-relative"">
+                            <h2 id="home-subtitle" class="lead">GAME DESIGNER & PROGRAMMER</h2>
                         </div>
                     </div>
                 </div>
@@ -82,7 +79,7 @@
     </div>  
 
     <!-- Skills -->
-    <div id="skills" class="text-center text-light bg-dark">
+    <div id="skills" class="text-center text-light">
         <div id="skills-content" class="py-5">
             <h2>Skills & Experience</h2>
             <div class="row justify-content-center">
@@ -97,9 +94,9 @@
                     <p>User interface creation, adaptation and testing experience, and inclusive design.</p>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
-                    <img class="skills-logo" src="assets/imgs/web-dev.png" alt="Web Dev Image">
-                    <h4>Web Development</h4>
-                    <p>Front End Web Design, Interactive Interface, and Responsive Design.</p>
+                    <img class="skills-logo" src="assets/imgs/integral.png" alt="Web Dev Image">
+                    <h4>Mathematics & Physics</h4>
+                    <p>Bachelors in Math & Physics. Deep understanding of mathematical modeling, problem-solving, and anaylsis. Strong foundation in physics principles for practical application.</p>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <img class="skills-logo" src="assets/imgs/chart.png" alt="Chart">
@@ -115,17 +112,31 @@
         <div class="container py-5">
             <h2>Portfolio</h2>
             <p>My showreel and a collection of images of projects I have done.</p>
-            <div id="showreel-container" class="position-relative overflow-hidden mb-5">
-                <iframe id="showreel-video" src="https://www.youtube.com/embed/F2sarbjq-Lc?si=Qkr0mK28aa9xxISg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div id="showreel" class="ratio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/rUQVpIlFF5c?si=xckSrn4IE4VhRQ6-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div> 
-            <div class="row justify-content-center">
-                <div class="col-md-3 mb-4">
-                    <img src="assets/imgs/Halo Reach Split Mountain.jpg" alt="Portfolio Image" class="img-fluid">
+            <!-- <div class="atio ratio-16x9">
+                <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+              </div> -->
+            <div class="row mb-4 text-center">
+                <div class="col-6 themed-grid-col">
+                    <h4>Audio Visualizer</h4>
+                    <img src="assets/imgs/AudioVisualizerStill.jpg" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded">
                 </div>
-                <div class="col-md-3 mb-4">
-                    <img src="assets/imgs/Koi Fish.jpg" alt="Portfolio Image" class="img-fluid">
+                <div class="col-6 themed-grid-col">
+                    <h4>Fortune Fire</h4>
+                    <img src="assets/imgs/FortuneFireStill.jpg" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded">
                 </div>
-                <!-- Add more portfolio images here -->
+            </div>
+            <div class="row mb-4 text-center">
+                <div class="col-6 themed-grid-col">
+                    <h4>Procedural Generation</h4>
+                    <img src="assets/imgs/ProceduralGenerationStill.jpg" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded">
+                </div>
+                <div class="col-6 themed-grid-col">
+                    <h4>Astronomy Simulator</h4>
+                    <img src="assets/imgs/ObservatoryScreenshotPlayMode.png" class="w-100 mb-2 mb-md-4 shadow-1-strong rounded">
+                </div>
             </div>
         </div>
     </div>
@@ -136,9 +147,9 @@
             <h2 class="mb-4">About Me</h2>
             <div class="text-overlay">
                 <p class="aboutme-paragraph">I'm currently a student at Boise State University in the Games, Interactive Media, and Mobile Technology Program (GIMM).</p>
-                <p class="aboutme-paragraph">I have a previous bachelor's degree in Math and Physics from a different university and starting to look for new work!</p>
+                <p class="aboutme-paragraph">I have a previous bachelor's degree in Math and Physics from a different university and starting to look for work!</p>
                 <p class="aboutme-paragraph">I'm a lifelong learner, dedicated to continuous self-improvement and eager to tackle new challenges in whichever field I land in.</p>
-                <p class="aboutme-paragraph">I have skills in a number of softwares such as Unity, Unreal Engine 5, and experience working with 3D modeling. I have had extensive experience coding with C++, C#, Python, Java, Javascript, HTML, CSS, and Swift.</p>
+                <p class="aboutme-paragraph">I have skills in a number of softwares such as Unity, Unreal Engine 5, and experience working with 3D modeling. I have extensive experience coding with C++, C#, Python, Javascript, and Swift.</p>
             </div>
         </div>
     </div>

@@ -14,9 +14,30 @@ body {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     overflow-x: hidden;
+    z-index: 1;
+    color: var(--light);
+}
+
+h1 {
+    /* font-size: 2em; */
+    color: var(--light);
+    font-family: "Concert One";
+    font-weight: 500;
+    font-style: normal;
 }
 
 h2 {
+    /* font-size: .9em;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--light); */
+    /* font-size: 2rem; */
+    font-weight: 400;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+h3 {
     font-size: 2rem;
     font-weight: 400;
     padding-top: 50px;
@@ -89,6 +110,60 @@ p {
     color: var(--lightGray);   
 } */
 
+#home-title {
+    /* font-size: 2em; */
+    color: var(--light);
+    font-family: "Concert One";
+    font-weight: 500;
+    font-style: normal;
+}
+
+#home-subtitle {
+    /* font-size: .9em; */
+    font-weight: 300;
+    font-style: normal;
+    color: var(--light);
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#skills {
+    /* z-index: -2; */
+    /* overflow: hidden; */
+    /* position: relative; */
+    /* top: 0;
+    left: 0; */
+    /* width: 100%; */
+    z-index: -2;
+    /* pointer-events: none; */
+    background-color: var(--skyBackground); 
+}
+.skills-title {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+#skills-content {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    display: none;
+    visibility: visible;
+}
+
+#showreel {
+    margin-bottom: 30px;
+}
+
+#about-me {
+    background-image: url("assets/imgs/NoiseGradient.jpg");
+}
 footer {
     background-color: var(--backgroundGray);
     padding: 20px;
